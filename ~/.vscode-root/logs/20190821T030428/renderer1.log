@@ -1,0 +1,1 @@
+[2019-08-21 03:07:40.013] [renderer1] [warning] UNRESPONSIVE extension host, 'ms-azuretools.vscode-docker' took 94% of 555.906ms, saved PROFILE here: '/tmp/exthost-646ca6.cpuprofile' [{"id":"ms-azuretools.vscode-docker","total":520512,"percentage":94}]

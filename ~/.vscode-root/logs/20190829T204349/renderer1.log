@@ -1,0 +1,1 @@
+[2019-08-29 20:44:39.276] [renderer1] [warning] UNRESPONSIVE extension host, 'vscode.git' took 93% of 490.589ms, saved PROFILE here: '/tmp/exthost-36901f.cpuprofile' [{"id":"vscode.git","total":455420,"percentage":93},{"id":"vscode.merge-conflict","total":1854,"percentage":0}]

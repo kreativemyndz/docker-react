@@ -1,0 +1,22 @@
+file:///home/kmstudio/Prod/frontend/docker-compose.yml {"mtime":1566512464143,"size":186,"etag":"33ngkdmda60","orphaned":false}
+version: '3'
+services: 
+  web: 
+    build: 
+      context: .
+      dockerfile: Dockerfile.dev
+    ports: 
+      - "3000:3000"
+    volume: 
+      - /app/node_modules
+      - .:/app
+  test: 
+    build: 
+      context: .
+      dockerfile: Dockerfile.dev
+    volume: 
+      - /app/node_modules
+      - .:/app
+    command: ["npm","run","test"]
+
+      
